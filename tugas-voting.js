@@ -5,7 +5,7 @@ var iqbal=[];
 var dede=[];
 var deden=[];
 
-for (i=1; i<=5; i++){
+for (i=1; i<=16; i++){
     var calon=prompt('Masukkan nama calon ketua :\n (calon :iqbal, dede, deden)');
     calonKetua.push(calon);
     if(calon=='iqbal'){
@@ -21,6 +21,6 @@ for (i=1; i<=5; i++){
 
 
 console.log(calonKetua);
-console.log(length.iqbal);
+console.log(iqbal);
 console.log(dede);
 console.log(deden);
